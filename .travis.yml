@@ -32,3 +32,7 @@ deploy:
     tags: false
     repo: TwrpBuilder/android_device_GIONEE_gionee6735_66c_m0
     branch: master
+
+branches:
+  except:
+    - /^(?i:untagged)-.*$/
